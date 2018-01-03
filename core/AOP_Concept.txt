@@ -1,0 +1,17 @@
+Spring:
+
+AOP : Aspects oriented programming
+
+className
+methodName
+
+NodeJS AOP:
+*********************************************************
+https://github.com/cujojs/meld
+https://www.npmjs.com/package/octobus.js
+https://www.npmjs.com/package/aspect.js
+https://www.npmjs.com/package/javascript-oop-aop-ioc
+http://bearcatjs.org/guide/aop.html
+*********************************************************
+
+https://www.npmjs.com/package/jsface
