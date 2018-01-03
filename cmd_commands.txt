@@ -1,0 +1,5 @@
+1) To check global node modules(pre installed within nodejs) on CMD, run below command
+
+node -p <package-name>
+Example: node -p crypto
+
