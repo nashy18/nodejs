@@ -1,0 +1,25 @@
+ 1) Get all keys stored in redis
+ 
+ keys "*"
+ 
+ 2) Get value by Key
+ 
+ get <keyName>
+ Example :
+ get userRole_598851b346f00324404fc148
+ 
+ 
+***************************
+Delete using nodejs
+
+client.del('foo', 'apple');
+
+// Or
+
+client.del(['foo', 'apple']);
+
+Delete all the keys of all the existing database
+
+flushall
+
+del "tokenId_e084a670-07ed-4c86-ad7a-c1228530a30c"
