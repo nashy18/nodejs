@@ -1,0 +1,2 @@
+http://samnewman.io/patterns/architectural/bff/ 
+https://alexandreesl.com/2016/03/18/backend-for-frontends-a-microservices-pattern/ 
