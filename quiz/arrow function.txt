@@ -1,0 +1,6 @@
+
+1) const x = y=> y;
+Output: ?
+
+2) const k = _=> 'hello world'
+Output: ?
