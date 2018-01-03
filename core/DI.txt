@@ -1,0 +1,5 @@
+NODE JS : DI
+Dependency Injection modules:
+1) https://github.com/jaredhanson/electrolyte 
+2) http://inversify.io/ 
+3) https://github.com/vojtajina/node-di 
