@@ -1,0 +1,10 @@
+Commands:
+
+1) NGNIX:
+
+Start:
+start nginx
+
+Stop:
+
+Taskkill /F /IM  "nginx.exe"
