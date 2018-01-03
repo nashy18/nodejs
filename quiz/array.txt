@@ -1,0 +1,15 @@
+1) let k = [1,2,3]; 
+k.myProp = "avinash"; 
+
+
+2) let k = [1,2,3]; 
+k.myProp = "avinash"; 
+k.push('my name'); 
+
+
+3) const x = [];
+   x.push(2018);
+
+4) const y = {};
+  y.myProp = "Test";
+
