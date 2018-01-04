@@ -1,0 +1,17 @@
+------------------------------------------------------------------
+6 Tools to Scan Node.js Application for Security Vulnerability
+
+https://geekflare.com/nodejs-security-scanner/
+
+1. Snyk
+
+2. Source Clear
+
+3. Node Security Platform
+
+4. Acunetix
+
+5. Retire.js
+
+6. OWASP Dependency Check
+-------------------------------------------------------------------
