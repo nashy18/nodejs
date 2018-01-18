@@ -1,0 +1,31 @@
+------------------
+app.js
+-----------------
+module.exports = class {
+	
+	constructor(){
+		console.log("constructor loaded");
+	}
+	test(){
+		return "hello world";
+	}
+}
+
+
+console.log("i am constructor");
+
+----------------------------------
+main.js
+----------------------------------
+
+const load = require('./app.js'),
+      app = new load(); 
+
+console.log(app.test());
+
+
+-----------------------
+Run
+----------------------
+node main
+node app
