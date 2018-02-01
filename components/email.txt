@@ -1,0 +1,3 @@
+https://nodemailer.com/about/
+
+https://github.com/yads/nodemailer-express-handlebars
