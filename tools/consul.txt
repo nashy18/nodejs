@@ -3,4 +3,5 @@ It is a service which is used to manage the configuration dynamically without ch
 https://www.consul.io/
 
 Node Module:
+https://www.npmjs.com/package/consul
 https://github.com/silas/node-consul
