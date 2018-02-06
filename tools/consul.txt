@@ -1,0 +1,6 @@
+It is a service which is used to manage the configuration dynamically without changing the code base.
+
+https://www.consul.io/
+
+Node Module:
+https://github.com/silas/node-consul
