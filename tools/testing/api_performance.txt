@@ -1,3 +1,5 @@
 AppDynamics is used to monitor the application performance.
 
 https://www.appdynamics.com/
+
+https://docs.appdynamics.com/display/PRO42/Install+the+Node.js+Agent
