@@ -1,0 +1,126 @@
+https://www.toptal.com/javascript/interview-questions
+https://www.codementor.io/nihantanu/21-essential-javascript-tech-interview-practice-questions-answers-du107p62z
+
+*************************************************************************************************************************
+What is a Closure?
+- https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-closure-b2f0d2152b36
+- https://medium.com/coderbyte/a-tricky-javascript-interview-question-asked-by-google-and-amazon-48d212890703
+*************************************************************************************************************************
+What is Currying?
+*************************************************************************************************************************
+JavaScript Declarations are Hoisted //scoping
+
+In JavaScript, a variable can be declared after it has been used.In other words; a variable can be used before it has been declared.
+Hoisting is JavaScript's default behavior of moving all declarations to the top of the current scope (to the top of the current script or the current function).
+x = 5;
+var x;
+
+if you decalre a variable with var within a function then you cannot access it outside but if you declare within block ex if/else/switch; u can access it outside.
+
+function x(){
+  var i =0;
+}
+
+console.log(i)// reference erorr;i not defined
+
+if(1){
+  var i = 0;
+}
+
+console.log(i)//0;
+
+class x { fn(){}{ var i = 0;}}
+
+new x().fn();
+console.log(i)// reference erorr; i not defined
+
+var x = 21;
+var girl = function () {
+    console.log(x);
+    var x = 20;
+};
+girl ();
+
+output - undefined
+
+************************************************************************************************************************
+Pass By Value/Reference
+
+const a=10, b ={"id":1 ,"name":"avinash"}
+
+function x(x,y){
+
+   x = x * 10;
+   y.name = "js";
+}
+
+console.log(a); //10
+console.log(b); {"id":1 ,"name":"avinash"}
+
+x(a,b);
+
+console.log(a); // 10
+console.log(b); // {"id":1 ,"name":"js"}
+
+undefined, null, NaN
+
+let Name, obj = {"id" : 1};
+
+console.log(Name) // undefined
+console.log(obj.name) // undefined
+
+function fun(a,b){
+  console.log(a , b);
+}
+
+fun() // undefined undefined
+
+let y = fun(1,2);
+
+console.log(y) //undefined
+
+typeof undefined = "undefined"
+
+
+
+null occurs only when you are explicitly assiging a variable to it.
+
+typeof null = "object"
+
+NaN
+
+When you are applying arithmetic operators b/w number and other types (except number string)  then it will genarate NaN.
+
+ex-
+
+"5a"/5 = NaN
+
+"50"/5 = 10
+
+""/5 = 0
+50/"10" = 5
+
+null/5  = 0
+
+undefined/5 = NaN
+
+
+
+[] + [] = "";
+{}+{} = "[object Object][object Object]" ;
+[1,2] + [2,3] = "1,22,3";
+
+{"h":2}+{} = "[object Object][object Object]"
+
+[{},{}] + [{}] = "[object Object],[object Object][object Object]"
+
+
+undefined == null  //true
+
+undefined === null  //false
+
+************************************************************************************************************************
+Palindrom-
+
+string = '121'
+string == string.split('').reverse().join('')
