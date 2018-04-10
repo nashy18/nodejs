@@ -1,0 +1,19 @@
+{
+  "name": "date-utility",
+  "version": "1.0.0",
+  "description": "Utility class for number formatting",
+  "main": "numberUtility.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "author": "avinashk",
+  "license": "ISC",
+  "dependencies": {
+    "intl": "^1.2.5",
+    "numeral": "^2.0.6"
+  },
+  "devDependencies": {
+    "pkg": "^4.3.0"
+  }
+}
