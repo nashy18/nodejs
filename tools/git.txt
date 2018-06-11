@@ -1,0 +1,26 @@
+How to revert a commit from git repository
+
+//https://stackoverflow.com/questions/448919/how-can-i-remove-a-commit-on-github
+//https://kb.iu.edu/d/afcz
+
+
+1 - Copy the commit reference you like to go back to from the log:
+
+git log
+
+2 - Reset git to the commit reference:
+
+ git reset <commit_ref>
+ 
+It will take you to the editor
+
+3) enter the comments
+
+4) then to exit from editior press colon (:)
+
+5) then type q!
+
+6) git commit
+
+7) git push
+
