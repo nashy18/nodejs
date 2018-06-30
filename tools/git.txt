@@ -24,3 +24,7 @@ It will take you to the editor
 
 7) git push
 
+How can I stage and commit all files, including newly added files, using a single command?
+//https://stackoverflow.com/questions/2419249/how-can-i-stage-and-commit-all-files-including-newly-added-files-using-a-singl
+
+git add -A && git commit -m "Your Message"
